@@ -1,0 +1,79 @@
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+}
+.mid{
+ position: absolute;
+font-weight: bold;
+left: 470px;
+ display: inline-block;
+ width: 33%;
+ margin: 12px auto;
+ top: 10px;
+ font-size: x-large;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+}
+.right2 {
+    position: absolute;
+    left: 1150px;
+    top: 20px;
+    display: inline-block;
+}
+#Admissionb {
+    background-color: yellow;
+    border: none;
+    font: status-bar;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.container {
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border: 2px solid gray;
+    cursor:pointer;
+    width: 97%;
+
+
+}
+.mid2 {
+    display: inline-block;
+    position: absolute;
+    left: 900px;
+    top: 10px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    
+}
+.navbar li a:hover , .navbar li s:hover a.active{
+    color: yellow;
+    text-decoration: underline;
+    padding: 34px 23px;
+    
+}
