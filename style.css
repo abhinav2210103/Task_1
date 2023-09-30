@@ -2,9 +2,11 @@
     display: inline-block;
     position: absolute;
     left: 200px;
-    top: 10px;
+    top: 10px
+    
 }
 .mid{
+background-color: white;
  position: absolute;
 font-weight: bold;
 left: 470px;
@@ -49,9 +51,7 @@ left: 470px;
     padding: 10px;
     border: 2px solid gray;
     cursor:pointer;
-    width: 97%;
-
-
+    width: 100%;
 }
 .mid2 {
     display: inline-block;
@@ -61,19 +61,134 @@ left: 470px;
 }
 .navbar{
     display: inline-block;
+    
 }
 .navbar li{
     display: inline-block;
+    
 }
 .navbar li a{
     color: white;
     text-decoration: none;
     padding: 34px 23px;
-    
+    text-align: center;
 }
 .navbar li a:hover , .navbar li s:hover a.active{
     color: yellow;
     text-decoration: underline;
     padding: 34px 23px;
     
+}
+.header {
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 1px;
+    margin: 0px;
+}
+.task {
+    display: inline-block;
+    position: absolute;
+    top: 330px;
+    
+    background-color: white;
+
+}
+.about
+{
+    position: absolute;
+    top: 920px;
+    text-align: center;
+    left: 680px;
+    text-decoration: underline;
+    font-size: 35px;
+}
+.abouttext {
+    font-size: 28px;
+    position: absolute;
+    top: 1020px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.marq
+{
+    font-size: 20px;
+    position: absolute;
+    top: 290px;
+    left: 600px;
+    display: block;
+}
+.courses {
+    position: absolute;
+    top: 1150px;
+    left: 640px;
+    font-size: 35px;
+}
+.courseim1{
+    position: absolute;
+    top: 1250px;
+    left: 175px;
+    
+}
+.courseim2{
+    position: absolute;
+    top: 1250px;
+    left: 680px;
+    
+}
+.courseim3{
+    position: absolute;
+    top: 1250px;
+    left: 1150px;
+    
+}
+.btech{
+    position: absolute;
+    top: 1450px;
+    left: 175px;
+}
+.mca {
+    position: absolute;
+    top: 1450px;
+    left: 680px;
+}
+.mtech {
+    position: absolute;
+    top: 1450px;
+    left: 1150px;
+}
+
+.footer {
+    position: absolute;
+    top: 1550px;
+    background-color: black;
+    display: inline-block;
+    width: 100%;
+}
+.quicklinks {
+    display: inline block;
+    float: left;
+    position: relative;
+    top: 0px;
+    left: 350px;
+}
+
+.address {
+    display: inline-block;
+    color: blue;
+    position: relative;
+    left: 175px;
+    color: white;
+    font-size: 22px;
+    float: left;
+}
+
+.quicklinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.quicklinks a:hover , .quicklinks  s:hover a.active{
+    color: yellow;
+    text-decoration: underline;
+    padding: 34px 23px;
 }
